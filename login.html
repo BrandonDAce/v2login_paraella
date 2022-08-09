@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Podras pasar?</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+   <div class="container">
+     <h1 class= "label">A donde fuimos a comer la primera vez que salimos?</h1>
+     <form class= "login_form" action= "mensaje.html"  method="post" name="form" onsubmit= "return validated()">
+        <div class="font">Ingresa tu respuesta</div>
+        <input autocomplete="off" type="text" name="respuesta">
+        <div id="respuesta_incorrecta">Te equivocaste.....</div>
+        <div class="font font2">Que dia fue? (Mes no,con el dia es sufiente)</div>
+        <input type"password"name="password">
+        <div id="pass_error">Te equivocaste.....</div>
+        <button type="submit">Verificar</button>
+     </form>
+   </div>
+   <script src="vali.js"></script> 
+</body>
+</html>
